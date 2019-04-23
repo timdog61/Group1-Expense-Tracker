@@ -12,7 +12,7 @@ namespace ExpenseTracker
     class ConnectionDB
     {
         string DatabaseFilename;
-        string 
+       
 
     }
 }
