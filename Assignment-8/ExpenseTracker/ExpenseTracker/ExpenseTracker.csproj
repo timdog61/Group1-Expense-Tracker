@@ -46,7 +46,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCategories.Designer.cs">
+      <DependentUpon>AddCategories.cs</DependentUpon>
+    </Compile>
     <Compile Include="ConnectionDB.cs" />
+    <Compile Include="DisplayAllCategories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayAllCategories.Designer.cs">
+      <DependentUpon>DisplayAllCategories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -62,6 +80,15 @@
       <DependentUpon>UserForm.cs</DependentUpon>
     </Compile>
     <Compile Include="User_Account.cs" />
+    <EmbeddedResource Include="AddCategories.resx">
+      <DependentUpon>AddCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayAllCategories.resx">
+      <DependentUpon>DisplayAllCategories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>

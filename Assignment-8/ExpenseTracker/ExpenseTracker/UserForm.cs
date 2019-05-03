@@ -60,6 +60,7 @@ namespace ExpenseTracker
                 // this is for our try catch statement the ex gives you an example of where or what the error is
                 MessageBox.Show("Error " + ex.Message);
             }
+
         }
 
         private void CancelButton_Click(object sender, EventArgs e)

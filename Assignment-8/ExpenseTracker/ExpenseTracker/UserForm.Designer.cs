@@ -267,7 +267,7 @@
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "January",
-            "Fabruary",
+            "February",
             "March",
             "April",
             "May ",

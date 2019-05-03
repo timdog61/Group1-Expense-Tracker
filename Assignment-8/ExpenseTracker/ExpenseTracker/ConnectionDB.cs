@@ -11,8 +11,14 @@ namespace ExpenseTracker
 {
     class ConnectionDB
     {
-        string DatabaseFilename;
-       
+        public static string _DBFile;
+        public static string _DBConnectionInfo;
+        public static void DataBaseConnection(string DatabaseFilename)
+        { 
 
+            _DBFile = DatabaseFilename;
+            _DBConnectionInfo = @"Provider=Microsoft.ACE.OLEDB.12.0; Data Source=C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\Database\ExpenseTrackerDB.accdb; Persist Security Info=False"; 
+
+        }
     }
 }

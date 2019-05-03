@@ -21,6 +21,7 @@ namespace ExpenseTracker
 
         private void Login_Click(object sender, EventArgs e)
         {
+            //insert comment here 
             OleDbConnection cn = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\Database\ExpenseTrackerDB.accdb");
             OleDbDataAdapter da;
             DataTable dt = new DataTable();
@@ -32,7 +33,9 @@ namespace ExpenseTracker
             }
             else if (dt.Rows.Count > 0)
             {
-                MessageBox.Show("Login Succsufully");
+                Home home_ = new Home();
+                home_.Show();
+                
             }
         }
 

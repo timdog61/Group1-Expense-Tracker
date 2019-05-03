@@ -9,3 +9,6 @@ C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTr
 C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTracker\bin\Debug\ExpenseTracker.pdb
 C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.exe
 C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.pdb
+C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.Home.resources
+C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.AddCategories.resources
+C:\Users\CRANE771\OneDrive\Class\Spring 2019\CITA - 280\ExpenseTracker\ExpenseTracker\obj\Debug\ExpenseTracker.DisplayAllCategories.resources
